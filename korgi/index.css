@@ -1,0 +1,89 @@
+*{
+	 box-sizing: border-box;
+}
+body{
+	max-height: 1vh;
+}
+h1,h2 {
+	font-family: 'EB Garamond', serif;
+	text-align: center;
+}
+.main-brand{
+	font-size: 60px;
+	font-weight: normal;
+	margin: 60px 0;
+}
+p{
+	font-style: italic;
+}
+.img-position{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+
+}
+.firstcontainer{
+	display: flex;
+	margin: 0px 20px 0px 20px;
+	border-bottom-style: hidden;
+	height: 50%;
+}
+.secondcontainer{
+	display: flex;
+	margin: 0px 20px 0px 20px;
+	height: 50%;
+}
+.container{
+  border: 1px solid black;
+	padding: 10px;
+}
+.studentlearns{
+	width: 25%;
+}
+.breaking{
+	width: 50%;
+}
+.aboutcss{
+	width: 25%;
+}
+.boylikes{
+	width: 25%;
+}
+
+.container.navig{
+	width: 75%;
+	padding: 0px;
+}
+.flex-nav{
+	display: flex;
+	flex-direction: column;
+	position: center;
+	align-items: stretch;
+}
+.features-nav{
+height: 70px;
+color:  #666666;
+text-decoration: none;
+font-weight: bold;
+font-size: 35px;
+}
+.polit-color{
+	background-color:#ffe066;	
+}
+.tech-color{
+	background-color:#99ddff;
+	height: 70px;
+}
+.local-color{
+	background-color: #99ffcc;	
+	height: 70px;
+}
+.opinion-color{
+	background-color:  #99bbff;	
+	height: 70px;
+}
+.sport-color{
+	background-color: #b380ff;	
+	height: 70px;
+}
